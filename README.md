@@ -1,2 +1,3 @@
 # TinyTamagotchi
-A tamagotchi game made for TinyTapeout submission
+
+The goal for our chip is to make our own version of a Tamagotchi digital pet with customized features. The game will have multiple options for choosing a pet/character to allow personalization. Once a pet is selected, users can interact with various actionables to “care” and satisfy the pet’s needs (hunger, boredom, etc.), and time-dependent mood conditions (happy, hungry, sleepy, dead, etc.) that the pet will switch between during clock cycles. Players will need to monitor these changes and respond accordingly to maintain their pet’s health and happiness. To implement this, we will use a Monochrome Display PMOD to visually represent the pet and its environment and pushbuttons (left, right, and select) to allow navigation through different options and perform actions. These inputs will be connected to an FPGA board, which will handle processing and game logic to ensure smooth operation.
